@@ -15,11 +15,11 @@ export default {
       type: Boolean,
       default: true
     },
-    optionHeight: {
-      type: Number,
-      default: 40
-    }
-  },
+  //   optionHeight: {
+  //     type: Number,
+  //     default: 40
+  //   }
+  // },
   computed: {
     pointerPosition () {
       return this.pointer * this.optionHeight
